@@ -1,0 +1,218 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    font-weight: border;
+}
+
+.close-navbar {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+body {
+    background-color: #ddd;
+}
+
+.wrapper {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.top {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+/* left-content */
+
+.left-content {
+    background-color: white;
+    min-height: 300px;
+    padding: 0;
+}
+
+.me-photo {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.main-header li {
+    margin-left: -16%;
+    padding: 5%;
+    border: 3px solid black;
+    border-top: 1px;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    text-align: left;
+    font-size: 25px;
+    list-style: none;
+}
+
+.main-header li:first-child {
+    border-top: 3px solid black;
+}
+
+.main-header li:hover {
+    background-color: skyblue;
+}
+
+.main-header .active {
+    background-color: skyblue;
+}
+
+.main-header a {
+    color: black;
+}
+
+.main-header>ul>li>span {
+    text-align: right;
+}
+
+.Community {
+    display: inline-block;
+    width: 50px;
+    margin-left: 30px;
+    margin-bottom: 5%;
+}
+
+.line-id {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: greenyellow;
+    display: none;
+}
+
+#weather {
+    margin-top: 30px;
+    background-color: darkblue;
+    color: white;
+    padding-bottom: 3px;
+}
+
+.weather-title {
+    text-align: center;
+}
+
+.weather-title,
+.source {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* right-content -about*/
+
+.right-content {
+    background-color: white;
+    min-height: 2000px;
+    padding: 0;
+    margin-right: -3%;
+    margin-left: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+    float: right;
+}
+
+.main-title {
+    border-bottom: 1px solid black;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.block-content {
+    font-size: 20px;
+}
+
+.progress {
+    margin-bottom: 40px;
+}
+
+.progress-bar-yellow {
+    background-color: orangered
+}
+
+.jq-right-2 {
+    display: none;
+}
+
+.Introduction {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-size: 20px;
+}
+
+#img1,
+#img2,
+#img3 {
+    background-size: cover;
+}
+
+
+/* right-content -portfolio*/
+
+.wrap {
+    width: 800px;
+    margin: 20px auto;
+}
+
+.cart li {
+    margin: 0 4% 1em -1%;
+    float: left;
+    list-style: none;
+}
+
+.cart li img {
+    width: 230px;
+    height: 250px;
+}
+
+.cart .banners {
+    width: 355px;
+    height: 240px;
+}
+
+.location {
+    border-bottom: 1px solid black;
+    margin-bottom: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.location span {
+    font-size: 14px;
+}
+
+.lb-details span {
+    color: black;
+}
+
+.lb-data .lb-number {
+    color: purple;
+}
+
+.lightboxOverlay {
+    background-color: orange;
+}
